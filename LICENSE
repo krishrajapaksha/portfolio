@@ -186,7 +186,11 @@
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
+<<<<<<< HEAD
    Copyright 2025 Krishan Rajapaksha
+=======
+   Copyright [yyyy] [name of copyright owner]
+>>>>>>> adbc3c0719773f9f402917683b4059d6db6160fb
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
