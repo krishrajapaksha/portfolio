@@ -138,31 +138,42 @@ const Work = () => {
       </section>
 
       <section className="py-16 px-6 md:px-20">
-  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-    {filteredProjects.map((project, i) => (
-      <Link
-        to={`/work/${project.slug}`}
-        key={i}
-        className="relative group overflow-hidden aspect-square bg-[#111518] rounded-md"
-      >
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-2">
+        {filteredProjects.map((project, i) => (
+          <Link
+            to={`/work/${project.slug}`}
+            key={i}
+            className="relative group overflow-hidden aspect-square bg-[#111518]"
+          >
         <img
           src={project.image}
           alt={project.title}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
         />
         {/* Always show overlay on mobile */}
-        <div className="absolute inset-0 bg-black/60 opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition duration-500 flex flex-col items-center justify-center text-center p-4">
-          <h3 className="text-lg font-bold text-zinc-200">{project.title}</h3>
-          <p className="text-sm opacity-80">
-            {Array.isArray(project.category)
-              ? project.category.join(" / ")
-              : project.category}
-          </p>
-          <span className="mt-2 inline-flex items-center text-zinc-200 font-semibold">
-            View <span className="material-symbols-rounded ml-1">arrow_forward</span>
+        <div className="absolute inset-0 bg-black/60 opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition duration-500 flex flex-col items-start justify-end text-left p-4">
+
+          {/* Top-right VIEW tag */}
+          <span className="absolute top-3 right-3 opacity-80 text-white tracking-widest text-xs font-bold px-5 py-3 inline-flex items-center gap-1">
+            <span className="material-symbols-rounded text-sm">touch_app</span>
+            VIEW
           </span>
 
-        </div>
+          {/* Bottom-left content */}
+          <div className="px-5 py-5">
+            <h3 className="text-lg  mb-2 font-semibold text-zinc-200">{project.title}</h3>
+            <div className="h-1 w-12 bg-cyan-400 mb-2 mt-2"></div>
+            <p className="text-sm tracking-widest font-semibold opacity-80">
+              {Array.isArray(project.category)
+                ? project.category.join(" / ")
+                : project.category}
+            </p>
+
+          </div>
+  
+  
+</div>
+
       </Link>
     ))}
   </div>

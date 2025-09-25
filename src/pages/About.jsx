@@ -58,14 +58,7 @@ const About = () => {
       technologies, and enjoy creative pursuits that fuel my design thinking.
     </p>
 
-    {/* CV Download Button */}
-    <a
-      href="/Krishan_Rajapaksha.pdf"
-      download
-      className="mt-4 px-6 py-3 border-2 border-zinc-200 text-zinc-200 font-semibold hover:border-cyan-400 transition tracking-widest"
-    >
-      DOWNLOAD CV
-    </a>
+    
   </div>
 
 
@@ -130,19 +123,22 @@ const About = () => {
             <h3 className="text-lg font-semibold text-zinc-200 mb-2 tracking-widest">TECHNICAL SKILLS</h3>
             <div className="h-1 w-12 bg-cyan-400 mb-4"></div>
             <ul className="opacity-80 text-sm space-y-1 text-left">
-              <li>Figma (Design + Prototyping)</li>
+              <li>Figma</li>
               <li>Illustrator</li>
               <li>Photoshop</li>
               <li>Lightroom</li>
-              <li>CorelDRAW</li>
-              <li>CSS3 + HTML5</li>
+              <li>CorelDRAW</li>              
               <li>Blender</li>
               <li>3ds Max</li>
               <li>AutoCAD</li>
+              <li>UiPath</li>
+              <li>PowerBI</li>
               <li>Unity</li>
               <li>Vuforia</li>
+              <li>CSS3 + HTML5</li>
+              <li>Tailwind</li>
               <li>Python • Java • C#</li>
-              <li>Tailwind • MongoDB • UiPath</li>
+              <li>MongoDB</li>
             </ul>
           </div>
 
@@ -234,16 +230,7 @@ const About = () => {
             </div>
           </div>
         </div>
-
-        {/* Right: Button */}
-        <div>
-          <a
-            href="/contact"
-            className="px-6 py-3 bg-zinc-200 text-black font-semibold hover:bg-cyan-400 transition tracking-widest"
-          >
-            GET IN TOUCH
-          </a>
-        </div>
+        
       </section>
 
       <Footer />

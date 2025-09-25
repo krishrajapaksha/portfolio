@@ -47,7 +47,7 @@ const Header = () => {
 
       {/* Mobile Menu Dropdown */}
       {navOpen && (
-        <div className="md:hidden bg-[#111518]/80 backdrop-blur-sm text-white flex flex-col items-center py-6 gap-6 pointer-events-auto -mt-20">
+        <div className="md:hidden bg-[#111518]/80 backdrop-blur-sm text-white flex flex-col items-center py-6 gap-6 pointer-events-auto -mt-21">
           {navItems.map(({ label, path }, idx) => (
             <Link
               key={idx}

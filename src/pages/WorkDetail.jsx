@@ -24,10 +24,7 @@ const WorkDetail = () => {
       <section className="px-6 md:px-6 py-16 text-center">
         <h1 className="text-3xl md:text-4xl font-bold text-zinc-200 mb-6">
           {project.title}
-        </h1>
-        <p className="uppercase tracking-widest text-sm text-zinc-500 mb-8">
-          {Array.isArray(project.category) ? project.category.join(" / ") : project.category}
-        </p>
+        </h1>        
 
         {project.imageH && (
           <img
