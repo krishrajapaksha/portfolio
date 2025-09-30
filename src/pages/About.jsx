@@ -212,7 +212,7 @@ const About = () => {
             <h3 className="font-semibold text-zinc-200 tracking-widest">CONTACT</h3>
             <div className="flex flex-col gap-2 mt-2">
               <a
-                href="mailto:krishanrajapaksha@email.com"
+                href="mailto:krishanrajapaksha@gmail.com"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-cyan-400"

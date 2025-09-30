@@ -160,8 +160,8 @@ const Contact = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-semibold text-zinc-200 tracking-widest">CONTACT</h3>
             <div className="flex flex-col gap-2 mt-2">
-              <a href="mailto:krishanrajapaksha@email.com" target="_blank" rel="noreferrer" className="hover:text-cyan-400">
-                krishanrajapaksha@email.com
+              <a href="mailto:krishanrajapaksha@gmail.com" target="_blank" rel="noreferrer" className="hover:text-cyan-400">
+                krishanrajapaksha@gmail.com
               </a>
               <a href="https://wa.me/94768538466" target="_blank" rel="noreferrer" className="hover:text-cyan-400">
                 +94 76 853 8466
