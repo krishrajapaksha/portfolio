@@ -217,7 +217,7 @@ const About = () => {
                 rel="noreferrer"
                 className="hover:text-cyan-400"
               >
-                krishanrajapaksha@email.com
+                krishanrajapaksha@gmail.com
               </a>
               <a
                 href="https://wa.me/94768538466"
