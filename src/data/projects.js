@@ -248,6 +248,38 @@ export const projects = [
 
   {
     id: 9,
+    slug: "pointofujith",
+    title: "Point of Ujith – Logo Design",
+    category: "GRAPHICS",
+    image: "/works/point-of-ujith.jpg",
+    overview:
+      "“Point of Ujith” is a social media video series by Ujith Hemachandra, where he shares his views and ideas on various topics through Facebook and YouTube platforms. The aim of this logo design was to create a strong personal brand identity that reflects Ujith’s confident personality, clear communication style, and engaging presence.",
+    role: "Logo Designer",
+    timeline: "Oct 2025",
+    tools: ["CorelDRAW","Photoshop"],
+    process: [
+      "The project started with analyzing Ujith’s content style — insightful, confident, and conversational. The goal was to design a logo that feels personal yet professional, suitable for a public figure and media personality.",
+      "I created a vector portrait illustration of Ujith to make the logo instantly recognizable. The illustration was done in Adobe Illustrator, using clean lines, geometric shading, and smooth gradients for a modern digital look.",
+      "The bold, sans-serif typography adds strength and clarity, while the yellow circle background represents positivity, energy, and creativity, which aligns with the tone of his discussions.",
+      "The circular layout makes the logo easy to adapt across platforms like YouTube profile icons, Facebook covers, video thumbnails, and other digital branding materials.",
+    ],
+    gallery: [
+      "/works/point-of-ujith.jpg",
+      "/works/point-of-ujith-1.jpg",           
+    ],
+    outcome:[
+      "Created a strong personal brand identity for “Point of Ujith.”",
+      "The vector portrait makes the logo instantly recognizable and personal.",
+      "Bold typography adds confidence and professionalism to the design.",
+      "Yellow circular background symbolizes energy, positivity, and creativity.”",
+      "The logo is versatile and clear across digital platforms like YouTube and Facebook.",
+      "Successfully enhances visual consistency in profile icons, banners, and thumbnails.",
+            
+    ],
+  },
+
+  {
+    id: 10,
     slug: "drawingscraft",
     title: "Hand Drawings & Craft Works",
     category: "GRAPHICS",

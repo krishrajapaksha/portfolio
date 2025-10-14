@@ -65,6 +65,13 @@ const projects = [
   },
   {
     id: 9,
+    slug: "pointofujith",
+    title: "Point of Ujith – Logo Design",
+    category: "GRAPHICS",
+    image: "/works/point-of-ujith.jpg",
+  },
+  {
+    id: 10,
     slug: "drawingscraft",
     title: "Hand Drawings & Craft Works",
     category: "GRAPHICS",

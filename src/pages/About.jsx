@@ -149,6 +149,17 @@ const About = () => {
             </h3>
             <div className="h-1 w-12 bg-cyan-400 mb-4"></div>
             <ul className="opacity-80 text-sm space-y-2 text-left">
+              <li>
+                <a
+                  href="/works/Web_Design_for_Beginners_E-Certificate_2.pdf#view=FitH"
+                  target="_blank"
+                  rel="noreferrer"
+                  type="application/pdf"
+                  className="hover:text-cyan-400 underline"
+                >
+                  Web Design for Beginners - CODL University of Moratuwa
+                </a>
+              </li>
               <li>Google UX Design Professional Certificate (In Progress – 2/8 completed)</li>
               <li>
                 <a
@@ -169,8 +180,7 @@ const About = () => {
                 >
                   Start the UX Design Process: Empathize, Define, and Ideate
                 </a>
-              </li>
-              <li>Google IT Support Certificate (In Progress)</li>
+              </li>              
               <li>Extended Reality (XR) for Everybody – University of Michigan (In Progress)</li>
             </ul>
           </div>
