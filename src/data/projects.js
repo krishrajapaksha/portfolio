@@ -308,5 +308,82 @@ export const projects = [
     ],
         
   },
+  {
+    id: 11,
+    slug: "event-management-dashboard",
+    title: "Event Management Web App - Dashboard Design",
+    category: "UI/UX",
+    image: "/works/event-management.jpg",
+    overview:
+      "The Event Management Web App Dashboard is a modern, data-driven interface designed to help event organizers efficiently manage bookings, attendees, and performance analytics. The dashboard provides real-time insights through visual charts, event summaries, and detailed attendee demographics — all within a clean and intuitive layout. The design ensures seamless navigation between sections such as Overview, Browse Events, Event Details, and Attendee Insights, enabling users to make informed event decisions effortlessly.",
+    role: "UI/UX Designer",
+    timeline: "Sep - Oct 2025",
+    tools: [
+      "Figma (UI Design & Prototyping)",
+      "Google Fonts",
+      "Material Symbols (Icons)"
+    ],
+    process: [
+      "Researched user requirements and analyzed existing event management systems to identify UX pain points",
+      "Defined user personas and mapped user flows for dashboard navigation and feature interactions",
+      "Created low-fidelity wireframes to plan content hierarchy and visual layout across all screens",
+      "Developed high-fidelity mockups in Figma with a consistent color palette, typography, and reusable components",
+      "Designed data visualization elements including charts, cards, and metrics for real-time insights",
+      "Tested design usability with peers to ensure clarity, accessibility, and responsive adaptability"
+    ],
+    gallery: [
+      "/works/event-dashboard-overview.jpg",
+      "/works/event-browse-page.jpg",
+      "/works/event-details-page.jpg",
+      "/works/event-attendee-insights.jpg"
+    ],
+    figma: "https://www.figma.com/design/iVQrBHOVIeyAYaJP0u0jjx/Event-Management-WEB-App?node-id=0-1&t=Dzu47v7AWuUfren0-1",
+    outcome: [
+      "Delivered a complete, professional-grade dashboard UI design in Figma",
+      "Enhanced event tracking and attendee management through visual and structured layouts",
+      "Established a reusable design system for scalability and consistent styling",
+      "Improved data comprehension with clear information hierarchy and visual analytics",
+      "Produced a high-fidelity interactive prototype ready for developer handoff"
+    ]
+  },
+  {
+    id: 12,
+    slug: "portfolio-ui-design",
+    title: "Personal Portfolio Website - UI Design",
+    category: "UI/UX",
+    image: "/works/portfolio-ui.jpg",
+    overview:
+      "This project showcases the Figma design and live implementation of my personal portfolio website - built to present my creative work, UI/UX projects, and AR development experience in a modern, minimalistic layout. The design emphasizes clarity, accessibility, and strong visual hierarchy with dark mode styling and smooth transitions. Each section, from About to Works and Contact, was carefully structured to provide an engaging browsing experience for potential employers and clients.",
+    role: "UI/UX Designer & Frontend Developer",
+    timeline: "Sep - Oct 2025",
+    tools: [
+      "Figma (UI Design & Prototyping)",
+      "Vite + React",
+      "Tailwind CSS",
+      "Vercel (Deployment)"
+    ],
+    process: [
+      "Planned the website layout and content hierarchy to ensure a smooth storytelling experience",
+      "Created wireframes and high-fidelity mockups in Figma",
+      "Designed a dark-themed visual style with cyan highlights for a clean and futuristic look",
+      "Developed reusable React components for sections like Header, Works, and Contact",
+      "Implemented responsive design using Tailwind CSS for seamless performance across devices",
+      "Deployed the live site on Vercel for fast, global accessibility"
+    ],
+    gallery: [
+      "/works/portfolio-works.jpg",
+      "/works/portfolio-about.jpg",      
+      "/works/portfolio-contact.jpg",
+      "/works/portfolio-work-d.jpg",
+    ],
+    figma: "https://www.figma.com/design/ENhQUOsxytKX8XjseaBpwC/My-Portfolio?node-id=0-1&t=6LgfyEZg4PNxbIPy-1",
+    outcome: [
+      "Successfully designed and launched a fully responsive personal portfolio website",
+      "Created a consistent and professional UI theme aligning with personal branding",
+      "Integrated smooth navigation and clear project presentations for easy user exploration",
+      "Established a strong online presence to showcase skills in UI/UX and frontend development",
+      "Built a scalable foundation for adding new projects and case studies in the future"
+    ]
+  },
   
 ];

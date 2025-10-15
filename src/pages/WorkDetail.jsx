@@ -82,6 +82,20 @@ const WorkDetail = () => {
           )}
         </div>
       </section>
+      {/* Figma Link */}
+      {project.figma && (
+        <div className="text-center mt-12">
+          <a
+            href={project.figma}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 border-2 border-cyan-400 text-cyan-400 font-semibold hover:bg-cyan-400 hover:text-[#080c0f] transition tracking-widest"
+          >
+            <span className="material-symbols-rounded text-xl">open_in_new</span>
+            View on Figma
+          </a>
+        </div>
+      )}
 
       {/* Process */}
       {project.process && (

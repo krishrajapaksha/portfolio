@@ -77,6 +77,20 @@ const projects = [
     category: "GRAPHICS",
     image: "/works/dr-cr.jpg",
   },
+  {
+    id: 11,
+    slug: "event-management-dashboard",
+    title: "Event Management Web App - Dashboard Design",
+    category: "UI/UX",
+    image: "/works/event-management.jpg",
+  },
+  {
+    id: 12,
+    slug: "portfolio-ui-design",
+    title: "Personal Portfolio Website - UI Design",
+    category: "UI/UX",
+    image: "/works/portfolio.jpg",
+  },
 ];
 
 const categories = ["ALL", "UI/UX", "WEB", "AR", "GRAPHICS"];
