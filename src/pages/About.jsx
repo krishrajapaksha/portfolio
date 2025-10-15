@@ -46,14 +46,14 @@ const About = () => {
       AR Alphabet Learning App, an AR-enabled Furniture E-Commerce platform,
       and process automation using UiPath.
     </p>
-    <p className="text-base md:text-lg opacity-90 text-justify">
+    <p className="text-sm sm:text-base md:text-lg opacity-90 text-justify">
       I focus on bridging visual design with usability to deliver seamless
       digital experiences. With a strong interest in UI/UX, I am building
       expertise in interaction design, user-centered research, and modern
       front-end tools, preparing for a career in the design and technology
       industry.
     </p>
-    <p className="text-base md:text-lg opacity-90 text-justify">
+    <p className="text-sm sm:text-base md:text-lg opacity-90 text-justify">
       Outside my studies, I explore graphic design, experiment with emerging
       technologies, and enjoy creative pursuits that fuel my design thinking.
     </p>
