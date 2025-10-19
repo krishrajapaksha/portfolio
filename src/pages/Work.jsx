@@ -82,7 +82,7 @@ const projects = [
     slug: "event-management-dashboard",
     title: "Event Management Web App - Dashboard Design",
     category: "UI/UX",
-    image: "/works/event-management.jpg",
+    image: "/works/event-management1.jpg",
   },
   {
     id: 12,

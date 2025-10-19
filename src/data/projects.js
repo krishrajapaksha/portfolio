@@ -10,7 +10,7 @@ export const projects = [
       "Magic ABC is an interactive mobile application designed to make early childhood alphabet learning engaging, playful, and effective. By scanning printed alphabet pages, children can see 3D animated objects, hear correct pronunciations, trace letters with guided steps, and play mini educational games. The project bridges traditional learning with immersive AR experiences, encouraging children to learn independently while having fun. ",
     role: "AR Developer, UI Designer",
     timeline: "Jan - Apr 2025",
-    tools: ["Unity (Game Engine)","Unity Collaborate (Version Control)", "Vuforia (AR SDK)", "3ds Max & Blender (3D Modeling)", "CorelDRAW"],
+    tools: ["Unity (Game Engine)","Unity Collaborate (Version Control)", "Vuforia (AR SDK)", "3ds Max & Blender (3D Modeling)", "Figma"],
     process: [
       "Conducted literature review, surveys, and market analysis to identify educational needs",
       "Applied Agile methodology with iterative sprints for design and development",
@@ -29,6 +29,7 @@ export const projects = [
       "/works/magic-abc-7.jpg",
       "/works/magic-abc-8.jpg",
     ],
+    figma: "https://www.figma.com/design/ZdQ3Oz4ZXhN2JkQ1pL0Xs7/MagicABC?node-id=0-1&t=ufeFhrAquoptmBWg-1",
     outcome:[
       "Successfully developed a functional AR alphabet learning prototype",
       "Created engaging features like Magic View, Trace Letters, and Play & Learn",
@@ -313,7 +314,7 @@ export const projects = [
     slug: "event-management-dashboard",
     title: "Event Management Web App - Dashboard Design",
     category: "UI/UX",
-    image: "/works/event-management.jpg",
+    image: "/works/event-management1.jpg",
     overview:
       "The Event Management Web App Dashboard is a modern, data-driven interface designed to help event organizers efficiently manage bookings, attendees, and performance analytics. The dashboard provides real-time insights through visual charts, event summaries, and detailed attendee demographics — all within a clean and intuitive layout. The design ensures seamless navigation between sections such as Overview, Browse Events, Event Details, and Attendee Insights, enabling users to make informed event decisions effortlessly.",
     role: "UI/UX Designer",
@@ -332,12 +333,12 @@ export const projects = [
       "Tested design usability with peers to ensure clarity, accessibility, and responsive adaptability"
     ],
     gallery: [
-      "/works/event-dashboard-overview.jpg",
-      "/works/event-browse-page.jpg",
-      "/works/event-details-page.jpg",
-      "/works/event-attendee-insights.jpg"
+      "/works/event-dashboard-overview1.jpg",
+      "/works/event-browse-page1.jpg",
+      "/works/event-details-page1.jpg",
+      "/works/event-attendee-insights1.jpg"
     ],
-    figma: "https://www.figma.com/design/iVQrBHOVIeyAYaJP0u0jjx/Event-Management-WEB-App?node-id=0-1&t=Dzu47v7AWuUfren0-1",
+    figma: "https://www.figma.com/design/3M73ScxK6FXe5T5ztF6pQP/UI-UX-Assessment?node-id=1-1959&t=8MXuAtSQuqlXDtgm-1",
     outcome: [
       "Delivered a complete, professional-grade dashboard UI design in Figma",
       "Enhanced event tracking and attendee management through visual and structured layouts",
